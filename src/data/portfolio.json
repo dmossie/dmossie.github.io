@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Audette",
+        "description": "Audette is lorem ipsum...",
+        "image": "audette-logo.png"
+    },
+    {
+        "name": "Outshine",
+        "description": "Outshine is lorem ipsum...",
+        "image": "outshine-logo.png"
+    },
+    {
+        "name": "Pluto",
+        "description": "Pluto is lorem ipsum...",
+        "image": "pluto-logo.png"
+    }
+]
