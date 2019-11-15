@@ -1,17 +1,17 @@
 [
     {
         "name": "Audette",
-        "description": "Audette is lorem ipsum...",
+        "description": "Audette is a tool I developed which is used to analyze energy and building data to find opportunities to reduce global emissions.",
         "image": "audette-logo.png"
     },
     {
         "name": "Outshine",
-        "description": "Outshine is lorem ipsum...",
+        "description": "Outshine Exteriors is a website I designed and created for a local cleaning and maintenance company.",
         "image": "outshine-logo.png"
     },
     {
         "name": "Pluto",
-        "description": "Pluto is lorem ipsum...",
+        "description": "Pluto is a prototype of a social media app designed to introduce you to new people.",
         "image": "pluto-logo.png"
     }
 ]
