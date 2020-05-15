@@ -1,10 +1,12 @@
 import React from 'react';
 import Card from "react-bootstrap/Card";
-import Images from "../data/images";
+import Images from "../../data/images";
+
+import './card.css'
 
 const PortfolioCard = (props) => {
     return (
-        <Card className="portfolio-card">
+        <Card className="portfolio-card mx-auto">
             <div className="card-image-holder">
                 <Card.Img className="portfolio-card-image" variant="top" src={ Images[props.image] } />
             </div>

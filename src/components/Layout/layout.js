@@ -2,8 +2,7 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 import Container from "react-bootstrap/Container"
 
-import Header from './header';
-import '../css/layout.css'
+import './layout.css'
 
 const Layout = (props) => (
     <React.Fragment>
@@ -16,7 +15,6 @@ const Layout = (props) => (
             />
             <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"></link>
         </Helmet>
-        <Header />
         <main id='main'>
             <Container>
                 { props.children }
