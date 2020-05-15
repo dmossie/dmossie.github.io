@@ -1,8 +1,6 @@
 /* CSS Variables */
 :root {
-    --header-size: 30px;
     --text-size: 20px;
-    --light-blue: #e6f9ff;
 }
 
 /* Content */
@@ -17,24 +15,4 @@ html * {
 p span {
     display: block;
     font-size: var(--text-size);
-}
-
-/* Nav */
-#navbar {
-    min-height: 120px;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color:var(--light-blue);
-}
-
-#navbar .navbar-brand {
-    font-size: var(--header-size);
-    font-family: 'Raleway', sans-serif;
-}
-
-#navbar .navbar-nav .nav-link a{
-    color: black;
-    font-size: var(--text-size);
-    padding-left: 15px;
-    padding-right: 15px;
 }
