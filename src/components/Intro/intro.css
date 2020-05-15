@@ -1,0 +1,30 @@
+#intro {
+    min-height: 100vh;
+}
+
+#my-info {
+    margin-top: 20vh;
+}
+
+#me {
+    max-width: 100%;
+}
+
+#my-name {
+    font-size: 64px;
+}
+
+#my-job {
+    font-size: 36px;
+}
+
+#my-home {
+    font-size: 24px;
+}
+
+.social-icon {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: black;
+}

@@ -2,16 +2,37 @@
     {
         "name": "Audette",
         "description": "Audette is a tool I developed which is used to analyze energy and building data to find opportunities to reduce global emissions.",
-        "image": "audette-logo.png"
+        "image": "audette-logo.png",
+        "title": "Lead Developer",
+        "duration": "2020 -",
+        "link": "https://audette.io",
+        "type": "banner"
+    },
+    {
+        "name": "SES Consulting",
+        "description": "I did some shit for ses",
+        "image": "ses.png",
+        "title": "Full Stack Developer",
+        "duration": "2017 - 2019",
+        "link": "https://sesconsulting.com",
+        "type": "card"
     },
     {
         "name": "Outshine",
         "description": "Outshine Exteriors is a website I designed and created for a local cleaning and maintenance company.",
-        "image": "outshine-logo.png"
+        "image": "outshine-logo.png",
+        "title": "Web Developer",
+        "duration": "2016 - 2017",
+        "link": "https://outshineexteriors.com",
+        "type": "card"
     },
     {
         "name": "Pluto",
         "description": "Pluto is a prototype of a social media app designed to introduce you to new people.",
-        "image": "pluto-logo.png"
+        "image": "pluto-logo.png",
+        "title": "Capstone Project",
+        "duration": "2015 - 2016",
+        "link": null,
+        "type": "card"
     }
 ]

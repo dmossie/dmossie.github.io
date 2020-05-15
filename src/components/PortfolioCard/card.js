@@ -13,9 +13,12 @@ const PortfolioCard = (props) => {
             <hr className="portfolio-divider"/>
             <Card.Body>
                 <Card.Title>{ props.name }</Card.Title>
+                <Card.Subtitle>{ props.title }</Card.Subtitle>
+                <Card.Subtitle>{ props.duration }</Card.Subtitle>
                 <Card.Text>
                     { props.description }
                 </Card.Text>
+                { props.link && <Card.Link target="__blank" href={ props.link }>Link</Card.Link> }
             </Card.Body>
         </Card>
     )

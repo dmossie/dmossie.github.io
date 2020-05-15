@@ -6,6 +6,8 @@ const images = {
     "audette-report.png": require("../images/audette-report.png"),
     "audette-secure-login.png": require("../images/audette-secure-login.png"),
     
+    "me.jpg": require("../images/me.jpg"),
+    
     "outshine-logo.png": require("../images/outshine-logo.png"),
 
     "pluto-create.png": require("../images/pluto-create.png"),
@@ -14,6 +16,8 @@ const images = {
     "pluto-logo.png": require("../images/pluto-logo.png"),
     "pluto-pref.png": require("../images/pluto-pref.png"),
     "pluto-swipe.png": require("../images/pluto-swipe.png"),
+
+    "ses.png": require("../images/ses.png"),
 };
 
 export default images;
