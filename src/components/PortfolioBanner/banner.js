@@ -12,18 +12,18 @@ const Banner = (props) => {
     return (
         <Jumbotron className="portfolio-banner">
             <Row>
-                <Col xs={ 3 }>
+                <Col xs={ 12 } lg={ 3 }>
                     <Image
                         className="banner-image"
                         src={ Images[props.image] }
                     />
                 </Col>
-                <Col xs={ 3 }>
+                <Col xs={ 12 } lg={ 3 }>
                     <h1>{ props.name }</h1>
                     <h4 className="banner-subtitle">{ props.title }</h4>
                     <h4 className="banner-subtitle">{ props.duration }</h4>
                 </Col>
-                <Col xs={ 6 }>
+                <Col xs={ 12 } lg={ 4 }>
                     <p>{ props.description }</p>
                     <p>
                         <a href={ props.link } target="__blank">

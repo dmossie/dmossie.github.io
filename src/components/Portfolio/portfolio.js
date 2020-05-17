@@ -29,15 +29,16 @@ const renderBanners = (portfolioData) => {
 const renderCards = (portfolioData) => {
 	var cards = [];
 	for (let i = 0; i < portfolioData.length; i++) {
-		if (portfolioData[i].type === "card") {
-			cards.push(
-				<Col
-					key={ i }
-				>
-					<PortfolioCard {...portfolioData[i]} />
-				</Col>
-			)
-		}
+		cards.push(
+			<Col
+				key={ i }
+				xs={ 12 }
+				lg= { 4 }
+				className={ portfolioData[i].type === "banner" ? "banner-card" : "" }
+			>
+				<PortfolioCard {...portfolioData[i]} />
+			</Col>
+		)
 	}
 	return (
 		<Row>

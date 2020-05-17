@@ -13,7 +13,7 @@ import './intro.css';
 
 const Intro = () => (
     <Row id="intro">
-        <Col>
+        <Col xs={ 12 } lg={ 6 }>
             <div id="my-info">
                 <h1 id="my-name">Daniel Mossie</h1>
                 <h3 id="my-job">Software Developer</h3>
@@ -35,7 +35,7 @@ const Intro = () => (
                 </Button>
             </Link>
         </Col>
-        <Col>
+        <Col xs={ 12 } lg={ 6 }>
             <Image
                 id="me"
                 rounded

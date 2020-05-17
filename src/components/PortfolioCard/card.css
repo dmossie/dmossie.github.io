@@ -2,8 +2,8 @@
 .portfolio-card {
     top: 50%;
     transform: translateY(-50%);
-    width: 18rem;
     height: 30rem;
+    margin-bottom: 40px;
     -webkit-box-shadow: 6px 7px 27px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 7px 27px -2px rgba(0,0,0,0.75);
     box-shadow: 6px 7px 27px -2px rgba(0,0,0,0.75);
@@ -20,7 +20,7 @@
 .portfolio-card-image {
     max-width: 70%;
     max-height: 95%;
-    width: auto;
+    width: auto !important;
     height: auto;
     position: absolute;
     top: 50%;
@@ -44,4 +44,28 @@
 
 .portfolio-divider {
     margin: 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .portfolio-card {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .portfolio-card {
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .portfolio-card {
+        width: 18rem;
+    }
+    .banner-card {
+        display: none;
+    }
 }
