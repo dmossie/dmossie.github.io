@@ -4,6 +4,8 @@ import Container from "react-bootstrap/Container"
 
 import './layout.css'
 
+require("smooth-scroll")('a[href*="#"]')
+
 const Layout = (props) => (
     <React.Fragment>
         <Helmet>

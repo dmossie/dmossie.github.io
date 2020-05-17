@@ -28,6 +28,10 @@
     transform: translate(-50%, -50%);
 }
 
+.card-subtitle {
+    font-style: italic;
+}
+
 .card-text {
     margin-top: 20px;
     line-height: 20px;

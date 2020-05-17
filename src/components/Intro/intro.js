@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link } from 'gatsby';
+
 import { MailOutlined, GithubOutlined} from '@ant-design/icons';
+import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
 
 import Images from "../../data/images";
 
@@ -26,6 +29,11 @@ const Intro = () => (
                     />
                 </a>
             </div>
+            <Link to="#portfolio">
+                <Button variant="outline-primary">
+                    Check out my portfolio
+                </Button>
+            </Link>
         </Col>
         <Col>
             <Image

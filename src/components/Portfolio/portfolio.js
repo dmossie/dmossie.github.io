@@ -2,10 +2,29 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import PortfolioBanner from '../PortfolioBanner/banner';
 import PortfolioCard from '../PortfolioCard/card';
 import PortfolioData from '../../data/portfolio.json';
 
-import './portfolio.css'
+const renderBanners = (portfolioData) => {
+	var banners = [];
+	for (let i = 0; i < portfolioData.length; i++) {
+		if (portfolioData[i].type === "banner") {
+			banners.push(
+				<Col
+					key={ i }
+				>
+					<PortfolioBanner {...portfolioData[i]} />
+				</Col>
+			)
+		}
+	}
+	return (
+		<Row>
+			{ banners }
+		</Row>
+	);
+}
 
 const renderCards = (portfolioData) => {
 	var cards = [];
@@ -20,15 +39,21 @@ const renderCards = (portfolioData) => {
 			)
 		}
 	}
-	return cards;
+	return (
+		<Row>
+			{ cards }
+		</Row>
+	);
 }
 
 const Portfolio = () => {
+	var banners = renderBanners(PortfolioData);
 	var cards = renderCards(PortfolioData);
 	return (
-		<Row id="portfolio">
+		<div id="portfolio">
+			{ banners }
 			{ cards }
-		</Row>
+		</div>
 	);
 }
 

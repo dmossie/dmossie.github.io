@@ -1,7 +1,7 @@
 [
     {
-        "name": "Audette",
-        "description": "Audette is a tool I developed which is used to analyze energy and building data to find opportunities to reduce global emissions.",
+        "name": "Audette.io",
+        "description": "Audette is a cleantech startup company aiming to reduce global emmisions from commercial buildings.",
         "image": "audette-logo.png",
         "title": "Lead Developer",
         "duration": "2020 -",
@@ -10,7 +10,7 @@
     },
     {
         "name": "SES Consulting",
-        "description": "I did some shit for ses",
+        "description": "At SES I set up an infrastructure to collect, analyze and view building data using an open source IoT platform.",
         "image": "ses.png",
         "title": "Full Stack Developer",
         "duration": "2017 - 2019",
@@ -19,7 +19,7 @@
     },
     {
         "name": "Outshine",
-        "description": "Outshine Exteriors is a website I designed and created for a local cleaning and maintenance company.",
+        "description": "Outshine Exteriors is a local cleaning and maintenance company. I created and designed their website.",
         "image": "outshine-logo.png",
         "title": "Web Developer",
         "duration": "2016 - 2017",
