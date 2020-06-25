@@ -2,57 +2,47 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import PortfolioBanner from '../PortfolioBanner/banner';
 import PortfolioCard from '../PortfolioCard/card';
 import PortfolioData from '../../data/portfolio.json';
 
-const renderBanners = (portfolioData) => {
-	var banners = [];
+const renderCards = (allPortfolioData) => {
+
+	// Group portfolio data into groups of three (how many cards I want in a row)
+	var rowSize = 3;
+	var portfolioData = [];
+	for (let i = 0; i < allPortfolioData.length; i += rowSize) {
+		portfolioData.push(allPortfolioData.slice(i, i+rowSize));
+	}
+
+	var rows = [];
 	for (let i = 0; i < portfolioData.length; i++) {
-		if (portfolioData[i].type === "banner") {
-			banners.push(
+		let cardsInRow = [];
+		for (let j = 0; j < portfolioData[i].length; j++) {
+			cardsInRow.push(
 				<Col
-					key={ i }
+					key={ i + "-" + j }
+					xs={ 12 }
+					lg= { 4 }
+					className={ portfolioData[i][j].type === "banner" ? "banner-card" : "" }
 				>
-					<PortfolioBanner {...portfolioData[i]} />
+					<PortfolioCard {...portfolioData[i][j]} />
 				</Col>
 			)
 		}
+		rows.push(<Row>{ cardsInRow }</Row>);
 	}
-	return (
-		<Row>
-			{ banners }
-		</Row>
-	);
-}
 
-const renderCards = (portfolioData) => {
-	var cards = [];
-	for (let i = 0; i < portfolioData.length; i++) {
-		cards.push(
-			<Col
-				key={ i }
-				xs={ 12 }
-				lg= { 4 }
-				className={ portfolioData[i].type === "banner" ? "banner-card" : "" }
-			>
-				<PortfolioCard {...portfolioData[i]} />
-			</Col>
-		)
-	}
 	return (
-		<Row>
-			{ cards }
-		</Row>
+		<React.Fragment>
+			{rows}
+		</React.Fragment>
 	);
 }
 
 const Portfolio = () => {
-	var banners = renderBanners(PortfolioData);
 	var cards = renderCards(PortfolioData);
 	return (
 		<div id="portfolio">
-			{ banners }
 			{ cards }
 		</div>
 	);
