@@ -6,7 +6,7 @@
         "title": "Lead Developer",
         "duration": "2020 -",
         "link": "https://audette.io",
-        "type": "banner"
+        "type": "card"
     },
     {
         "name": "SES Consulting",
@@ -32,6 +32,24 @@
         "image": "pluto-logo.png",
         "title": "Capstone Project",
         "duration": "2015 - 2016",
+        "link": null,
+        "type": "card"
+    },
+    {
+        "name": "BattleSnake",
+        "description": "Battlesnake is a programming competition I competed in where you program a server to play multiplayer snake.",
+        "image": "battlesnake.jpg",
+        "title": "Programming Competition",
+        "duration": "2018, 2019",
+        "link": "https://battlesnake.com",
+        "type": "card"
+    },
+    {
+        "name": "Investment Analysis",
+        "description": "I am currently working on a personal project that scrapes and performs analysis on property and stock market data.",
+        "image": "python.png",
+        "title": "Personal Project",
+        "duration": "2019 -",
         "link": null,
         "type": "card"
     }
