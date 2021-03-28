@@ -11,6 +11,7 @@ if (typeof window !== "undefined") {
 const Layout = (props) => (
     <React.Fragment>
                 <Helmet>
+                    <title>Daniel Mossie</title>
                     <link
                         rel="stylesheet"
                         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
