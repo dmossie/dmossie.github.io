@@ -13,7 +13,7 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 75px;
     row-gap: 100px;
 }
 
