@@ -1,0 +1,40 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+#container {
+    align-items: center;
+    column-gap: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7%;
+    row-gap: 100px;
+}
+
+#social {
+    margin-top: 50px;
+}
+
+.social-link {
+    text-decoration: none;
+}
+
+#my-photo > img {
+    border-radius: 100px;
+    -webkit-box-shadow: 10px 10px 32px -10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 32px -10px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 32px -10px rgba(0,0,0,0.5);
+    height: 750px;
+    width: auto;
+}
+
+.fa-brands {
+    color: #1E3050;
+    padding-right: 10px;
+}
